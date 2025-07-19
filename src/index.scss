@@ -109,8 +109,6 @@
 }
 
 @mixin btn {
-  @include familyOswald;
-  @include backGreen;
   width: 255px;
   padding: 16px;
   text-transform: uppercase;
@@ -120,6 +118,8 @@
   font-weight: 700;
   cursor: pointer;
   transition: all 0.3s;
+  @include familyOswald;
+  @include backGreen;
 
   &:hover {
     background-color: #3cc4a4;
@@ -136,8 +136,8 @@
   color: #fff;
 
   a {
-    @include colorPink;
     text-decoration: underline;
+    @include colorPink;
   }
 }
 
@@ -263,11 +263,11 @@ body {
 }
 
 .title {
-  @include familyCormorant;
   font-size: 100px;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 300;
+  @include familyCormorant;
 
   @media (max-width: 1185px) {
     font-size: 90px;
