@@ -1,4 +1,4 @@
-@import "../../../index.scss";
+@use "../../../index.scss" as *;
 
 .popular-bucket {
   background-image: url("../../../assets/populatBucket/back-golf&black.png");

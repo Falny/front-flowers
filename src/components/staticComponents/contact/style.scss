@@ -1,4 +1,4 @@
-@import "../../../index.scss";
+@use "../../../index.scss" as *;
 
 .contact {
   background-image: url("../../../assets/contact/rose-top.png"),

@@ -1,4 +1,4 @@
-@import "../../index.scss";
+@use "../../index.scss" as *;
 
 @mixin footerFZ {
   font-size: 14px;

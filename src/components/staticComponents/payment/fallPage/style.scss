@@ -1,4 +1,4 @@
-@import "../../../../index.scss";
+@use "../../../../index.scss" as *;
 
 .fallpage {
   background-image: url("../../../../assets/payment/fallpage-big-list.png"),
