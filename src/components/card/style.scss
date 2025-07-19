@@ -2,10 +2,10 @@
 
 .card {
   text-transform: uppercase;
-  @include displayColumn;
   align-items: start;
   justify-content: start;
   gap: 10px;
+  @include displayColumn;
 
   .card-description {
     font-size: 20px;

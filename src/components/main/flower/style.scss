@@ -9,8 +9,8 @@
   background-size: contain, contain;
   object-fit: cover;
   position: relative;
-  @include displayMain;
   height: 100vh;
+  @include displayMain;
 
   @media (max-width: 390px) {
     height: 40vh;
@@ -41,13 +41,13 @@
   }
 
   .main-flowers_title {
-    @include familyCormorant;
     margin-top: -50px;
     text-align: center;
     font-size: 200px;
     font-weight: 300;
     letter-spacing: 15px;
     text-transform: uppercase;
+    @include familyCormorant;
 
     @media (max-width: 1500px) {
       font-size: 150px;
@@ -104,10 +104,10 @@
   }
 
   .main-flowers_btn {
-    @include btn;
     text-align: center;
     width: 220px;
     margin-top: 70px;
+    @include btn;
 
     @media (max-width: 390px) {
       width: 120px;

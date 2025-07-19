@@ -25,11 +25,11 @@
   }
 
   .catalog-catalog {
-    @include shadowZeroTwo;
     padding: 25px 20px;
     border-radius: 30px;
     max-width: 920px;
     margin-bottom: 30px;
+    @include shadowZeroTwo;
 
     @media (max-width: 1200px) {
       max-width: 720px;
@@ -91,9 +91,9 @@
 
     .menu-title {
       font-size: 16px;
-      @include colorPink;
       margin-bottom: 20px;
       text-decoration: underline;
+      @include colorPink;
 
       @media (max-width: 400px) {
         font-size: 13px;
@@ -101,9 +101,9 @@
     }
 
     .menu-title-active {
-      @include colorGreen;
       margin-bottom: 20px;
       text-decoration: underline;
+      @include colorGreen;
 
       @media (max-width: 400px) {
         font-size: 13px;
