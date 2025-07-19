@@ -1,4 +1,3 @@
-import React from "react";
 import "./style.scss";
 
 import Img1 from "../../../assets/main/specialReason/img1.png";

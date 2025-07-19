@@ -1,4 +1,3 @@
-import React from "react";
 import "./style.scss";
 import Signatura from "../../../assets/common/signatura.png";
 

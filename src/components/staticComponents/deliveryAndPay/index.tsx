@@ -1,4 +1,3 @@
-import React from "react";
 import "./style.scss";
 import { Breadcrumbs } from "../../bredcrams";
 import SignaRose from '../../../assets/deliveryAndPay/rose-signa.png'

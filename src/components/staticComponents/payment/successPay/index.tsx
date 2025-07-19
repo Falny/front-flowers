@@ -1,4 +1,4 @@
-import React from "react";
+
 import "./style.scss";
 
 import PinkSigna from "../../../../assets/common/rose_signature.png";

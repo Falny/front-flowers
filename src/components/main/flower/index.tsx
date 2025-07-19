@@ -1,6 +1,5 @@
 import './style.scss'
 
-import Flowers from '../../../assets/main/flower/flower.png'
 import { Link } from 'react-router-dom'
 import { Scroll } from '../../../hook/scrollToTop'
 

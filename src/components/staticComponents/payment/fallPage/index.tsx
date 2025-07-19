@@ -1,4 +1,3 @@
-import React from "react";
 import "./style.scss";
 
 import SignaBlue from '../../../../assets/payment/signa-blue.svg'
