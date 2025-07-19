@@ -22,9 +22,9 @@
   }
 
   .popular-bucket-text {
-    @include text;
     text-align: center;
     margin: 20px 0 85px;
+    @include text;
 
     @media (max-width: 670px) {
       margin: 20px 0;
@@ -107,7 +107,6 @@
 
   .pb_watch-catalog {
     cursor: pointer;
-    @include colorPink;
     text-decoration: underline;
     font-size: 12px;
     font-weight: 700;
@@ -117,6 +116,7 @@
     display: flex;
     align-items: center;
     gap: 5px;
+    @include colorPink;
 
     @media (max-width: 390px) {
       font-size: 10px;

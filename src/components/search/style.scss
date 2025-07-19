@@ -8,9 +8,9 @@
         min-height: 50vh;
 
         .search-title{
-            @include colorGreen;
             margin-bottom: 50px;
             font-size: 30px;
+            @include colorGreen;
         }
 
         .search-items{

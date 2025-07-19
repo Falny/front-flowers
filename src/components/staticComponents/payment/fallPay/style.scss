@@ -49,10 +49,10 @@
           height: 50px;
           background-color: #7d2253;
           color: #fff;
-          @include familyOswald;
           text-transform: uppercase;
           cursor: pointer;
           transition: all 0.3s;
+          @include familyOswald;
 
           @media (max-width: 630px) {
             font-size: 12px;

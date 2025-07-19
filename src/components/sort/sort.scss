@@ -1,12 +1,12 @@
 @use "../../index.scss" as *;
 
 .catalog-sort {
-  @include shadowZeroTwo;
   border-radius: 20px;
   padding: 25px;
   height: max-content;
   max-width: 255px;
   width: 100%;
+  @include shadowZeroTwo;
 
   @media (max-width: 900px) {
     max-width: 115px;
@@ -65,10 +65,10 @@
 
   .catalog_sort-title {
     font-size: 15px;
-    @include colorGreen;
     font-weight: 700;
     letter-spacing: 1px;
     margin-bottom: 8px;
+    @include colorGreen;
 
     @media (max-width: 700px) {
       font-size: 13px;
@@ -79,7 +79,6 @@
   }
 
   .c_reset-filter {
-    @include familyOswald;
     font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
@@ -91,6 +90,7 @@
     border: 1px solid #fff;
     cursor: pointer;
     letter-spacing: 1px;
+    @include familyOswald;
 
     @media (max-width: 900px) {
       font-size: 10px;

@@ -165,8 +165,8 @@
             }
 
             .info-price {
-              @include colorGreen;
               font-weight: 700;
+              @include colorGreen;
             }
 
             .info-old-price {
@@ -225,8 +225,8 @@
           text-transform: uppercase;
           font-size: 15px;
           font-weight: 700;
-          @include familyOswald;
           cursor: pointer;
+          @include familyOswald;
 
           @media (max-width: 1050px) {
             width: 150px;

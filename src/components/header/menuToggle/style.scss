@@ -4,8 +4,8 @@
   display: flex;
   justify-content: space-between;
   position: relative;
-  @include familyOswald;
   letter-spacing: 1px;
+  @include familyOswald;
 
   @media (max-width: 1000px) {
     justify-content: start;
@@ -30,8 +30,8 @@
       display: block;
       width: 25px;
       height: 1px;
-      @include backGreen;
       transition: all 0.3s ease;
+      @include backGreen;
     }
 
     span + span {
@@ -80,9 +80,9 @@
           display: block;
           width: 25px;
           height: 1px;
-          @include backGreen;
           transform-origin: 12px 1px;
           transition: all 0.3s ease;
+          @include backGreen;
     
           &:nth-child(1) {
             transform: rotate(45deg);
@@ -107,8 +107,8 @@
         
 
         .header-common{
-            @include colorGreen;
-            font-size: 14px;
+          font-size: 14px;
+          @include colorGreen;
 
             @media (max-width: 390px) {
               font-size: 12px;

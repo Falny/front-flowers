@@ -1,10 +1,10 @@
 @use "../../../index.scss" as *;
 
 .block-delivery-title {
-  @include colorPink;
-  font-size: 20px;
   text-align: center;
+  font-size: 20px;
   font-weight: 700;
+  @include colorPink;
 
   @media (max-width: 950px){
     font-size: 17px;
@@ -40,7 +40,6 @@
       }
 
       .do-info_item {
-        @include shadowZeroTwo;
         border-radius: 30px;
         width: 255px;
         padding: 35px;
@@ -51,6 +50,7 @@
         gap: 15px;
         text-align: center;
         position: relative;
+        @include shadowZeroTwo;
 
         @media (max-width: 950px) {
           width: 180px;
@@ -94,10 +94,10 @@
 
     .block-toggle_item {
       font-weight: 700;
-      @include colorGreen;
       font-size: 20px;
       padding: 10px 82px;
       border-bottom: 1px solid #43ffd2;
+      @include colorGreen;
 
       @media (max-width: 950px) {
         font-size: 17px;
@@ -172,9 +172,9 @@
       }
 
       .fi-title {
-        @include colorGreen;
         font-size: 17px;
         text-transform: uppercase;
+        @include colorGreen;
       }
 
       .fi-desc {
@@ -200,10 +200,10 @@
         background-color: transparent;
         border: 1px solid #555555;
         padding: 20px;
-        @include familyOswald;
         resize: none;
         height: 180px;
         letter-spacing: 1px;
+        @include familyOswald;
 
         &::placeholder {
           text-transform: uppercase;

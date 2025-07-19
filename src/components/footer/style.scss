@@ -4,6 +4,7 @@
   font-size: 14px;
   font-weight: 300;
   color: #fff;
+
   @media (max-width: 830px) {
     font-size: 10px;
   }
@@ -89,9 +90,9 @@
       }
 
       .bl-catalog {
-        @include displayColumn;
         align-items: start;
         gap: 5px;
+        @include displayColumn;
 
         @media (max-width: 700px) {
           align-items: center;

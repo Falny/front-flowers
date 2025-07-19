@@ -6,7 +6,6 @@
     gap: 10px;
 
     .c_category-item {
-      @include familyOswald;
       text-transform: uppercase;
       background-color: transparent;
       padding: 10px 15px;
@@ -14,11 +13,12 @@
       border: 1px solid #fff;
       transition: all 0.3s;
       cursor: pointer;
+      @include familyOswald;
 
       &.active {
-        @include backGreen;
         color: #000;
         border: 1px solid #43ffd2;
+        @include backGreen;
       }
     }
   }

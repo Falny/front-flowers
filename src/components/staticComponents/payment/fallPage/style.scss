@@ -35,12 +35,12 @@
 
     .fallpage-numbers {
       .fp-common-num {
-        @include familyCormorant;
         font-size: 600px;
         background: linear-gradient(#163d8f, #163d8f, #4f6cab, #b6cdff);
         background-clip: text;
         color: transparent;
         height: fit-content;
+        @include familyCormorant;
 
         @media (max-width: 1200px) {
           font-size: 400px;
@@ -126,8 +126,8 @@
       }
 
       .fp_to-main {
-        @include colorGreen;
         text-decoration: underline;
+        @include colorGreen;
       }
     }
   }

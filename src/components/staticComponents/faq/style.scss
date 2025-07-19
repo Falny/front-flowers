@@ -13,9 +13,9 @@
     gap: 30px;
 
     .faq-stick {
-      @include backGreen;
       width: 65px;
       height: 1px;
+      @include backGreen;
     }
   }
 
@@ -80,14 +80,14 @@
         top: 10px;
         width: 15px;
         height: 1px;
-        @include backGreen;
         rotate: 90deg;
+        @include backGreen;
       }
 
       .faq-block-title {
-        @include colorGreen;
         text-transform: uppercase;
         margin-bottom: 20px;
+        @include colorGreen;
 
         @media (max-width: 550px) {
           margin-bottom: 10px;

@@ -18,11 +18,11 @@
 
   .order-title {
     position: relative;
-    @include colorGreen;
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
     margin: 40px 0 0;
+    @include colorGreen;
 
     @media (max-width: 700px) {
       font-size: 16px;
@@ -103,10 +103,10 @@
     }
 
     .oto-title {
-      @include colorGreen;
       font-size: 30px;
       font-weight: 700;
       text-transform: uppercase;
+      @include colorGreen;
 
       @media (max-width: 700px) {
         font-size: 20px;
@@ -117,19 +117,19 @@
     }
 
     .order-form {
-      @include displayColumn;
       gap: 20px;
       align-items: start;
+      @include displayColumn;
 
       @media (max-width: 500px) {
         gap: 10px;
       }
 
       .order-label {
-        @include displayColumn;
         align-items: start;
         gap: 4px;
         font-size: 20px;
+        @include displayColumn;
 
         @media (max-width: 700px) {
           font-size: 16px;
@@ -141,9 +141,9 @@
           background-color: transparent;
           border: 1px solid #555555;
           padding-left: 20px;
-          @include familyOswald;
           font-size: 20px;
           color: #fff;
+          @include familyOswald;
 
           @media (max-width: 700px) {
             font-size: 16px;
@@ -175,12 +175,12 @@
       }
 
       .order-radio-option {
-        @include display;
         justify-content: start;
         gap: 20px;
-        @include familyOswald;
         font-size: 20px;
         letter-spacing: 0;
+        @include familyOswald;
+        @include display;
 
         @media (max-width: 700px) {
           font-size: 16px;
@@ -242,13 +242,13 @@
         }
 
         .order-btn-promo {
-          @include btn;
           border: 1px solid #43ffd2;
           padding: 20px;
           background-color: transparent;
-          @include colorGreen;
           width: 190px;
           height: 61px;
+          @include colorGreen;
+          @include btn;
 
           @media (max-width: 700px) {
             width: 140px;
@@ -295,8 +295,8 @@
 
         .oc-btn-policy {
           .oc-btn {
-            @include btn;
             margin-bottom: 10px;
+            @include btn;
           }
 
           .oc-policy {
@@ -307,17 +307,17 @@
     }
 
     .cart-empty {
-      @include colorGreen;
       font-size: 20px;
+      @include colorGreen;
     }
 
     .cart-result {
       display: flex;
       justify-content: space-between;
-      @include colorGreen;
       font-size: 20px;
       margin-top: 10px;
       text-transform: uppercase;
+      @include colorGreen;
     }
   }
 

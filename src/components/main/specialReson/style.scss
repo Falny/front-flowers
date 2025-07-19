@@ -54,13 +54,13 @@
       }
 
       .so_text {
-        @include insideText;
         margin-bottom: 40px;
+        @include insideText;
       }
 
       .so_item {
-        @include insideText;
         list-style-type: disc;
+        @include insideText;
       }
 
       .so_item + .so_item {
@@ -121,8 +121,8 @@
     }
 
     .so_btn {
-      @include btn;
       margin-top: 40px;
+      @include btn;
   
       @media (max-width: 1000px) {
         margin: 0;

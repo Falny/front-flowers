@@ -18,9 +18,9 @@
 
   // текс
   .catalog-text_text {
-    @include text;
     margin: 10px 0 90px 95px;
     max-width: 670px;
+    @include text;
 
     @media (max-width: 1700px) {
       max-width: 600px;
@@ -59,8 +59,8 @@
     //большие буквы
     .ct_big-text {
       font-weight: 700;
-      @include backText;
       letter-spacing: 2px;
+      @include backText;
     }
 
     .ct-text-flower {
@@ -97,8 +97,8 @@
 
     // плашки
     .catalog-text_block .ct-list {
-      @include shadowZeroTwo;
       border-radius: 20px;
+      @include shadowZeroTwo;
 
       @media (max-width: 390px) {
         max-width: 200px;
@@ -191,8 +191,8 @@
           font-weight: 700;
           font-size: 30px;
           letter-spacing: 1px;
-          @include colorGreen;
           margin-bottom: 10px;
+          @include colorGreen;
 
           @media (max-width: 1200px){
             font-size: 18px;

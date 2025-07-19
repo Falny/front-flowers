@@ -23,14 +23,14 @@
     }
 
     .contact-item {
-      @include displayColumn;
-      @include shadowZeroTwo;
       gap: 30px;
       width: 255px;
       height: 255px;
       border-radius: 20px;
       font-size: 20px;
       padding: 25px;
+      @include displayColumn;
+      @include shadowZeroTwo;
 
       @media (max-width: 940px) {
         font-size: 16px;
@@ -45,8 +45,8 @@
 
       .item-title {
         text-transform: uppercase;
-        @include colorGreen;
         font-weight: 700;
+        @include colorGreen;
       }
 
       .item-text {
@@ -79,9 +79,9 @@
       }
 
       .c_text {
-        @include displayColumn;
         gap: 50px;
         max-width: 255px;
+        @include displayColumn;
 
         @media (max-width: 650px) {
           font-size: 14px;
@@ -106,9 +106,9 @@
 
       .c-form {
         margin-bottom: 55px;
-        @include displayColumn;
         align-items: start;
         gap: 10px;
+        @include displayColumn;
 
         .c-input {
           width: 445px;
@@ -142,8 +142,8 @@
         }
 
         .c-btn {
-          @include btn;
           margin: 20px 0 10px;
+          @include btn;
         }
         .c-policy {
           max-width: 342px;
@@ -180,8 +180,8 @@
         font-weight: 700;
         font-size: 20px;
         letter-spacing: 1px;
-        @include colorGreen;
         margin-bottom: 20px;
+        @include colorGreen;
       }
     }
   }

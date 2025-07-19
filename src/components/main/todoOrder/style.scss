@@ -109,10 +109,10 @@
         }
 
         .tr_item-title {
-          @include colorPink;
           font-weight: 700;
           font-size: 30px;
           margin-bottom: 12px;
+          @include colorPink;
 
           @media (max-width: 970px) {
             font-size: 24px;

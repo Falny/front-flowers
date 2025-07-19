@@ -8,11 +8,11 @@
   }
 
   .carousel-text {
-    @include colorGreen;
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 25px;
     text-transform: uppercase;
+    @include colorGreen;
   }
 
   .carousel {

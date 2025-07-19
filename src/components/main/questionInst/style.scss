@@ -90,16 +90,16 @@
   }
 
   .qi_block-text {
-    @include displayColumn;
     gap: 55px;
     max-width: 255px;
     margin-bottom: 20px;
+    @include displayColumn;
 
     .qi-stick {
       display: block;
-      @include backGreen;
       height: 1px;
       width: 255px;
+      @include backGreen;
     }
 
     .qi-text {
@@ -138,9 +138,9 @@
 
     .qi-form {
       margin-bottom: 55px;
-      @include displayColumn;
       align-items: start;
       gap: 10px;
+      @include displayColumn;
 
       .qi-input {
         width: 445px;
@@ -178,8 +178,8 @@
       }
 
       .qi-btn {
-        @include btn;
         margin: 20px 0 10px;
+        @include btn;
       }
       .qi-policy {
         max-width: 342px;
@@ -226,11 +226,11 @@
   }
 
   .bi-text-inst {
-    @include backText;
     text-transform: uppercase;
     letter-spacing: 2px;
     position: absolute;
     font-weight: 700;
+    @include backText;
 
     @media (max-width: 1400px) {
       top: 10%;

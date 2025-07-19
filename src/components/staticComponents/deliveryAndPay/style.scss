@@ -24,11 +24,11 @@
   }
 
   .dp-title {
-    @include colorPink;
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 1px;
     margin: 100px 0 20px;
+    @include colorPink;
 
     @media (max-width: 800px) {
       font-size: 16px;
@@ -50,11 +50,11 @@
     }
 
     .dp-item {
-      @include shadowZeroTwo;
       width: 255px;
       height: 200px;
       padding: 30px;
       border-radius: 25px;
+      @include shadowZeroTwo;
       @include display;
 
       @media (max-width: 800px) {
@@ -107,8 +107,8 @@
 
   .dp-dop {
     margin-top: 130px;
-    @include shadowZeroTwo;
     padding: 20px 30px;
+    @include shadowZeroTwo;
 
     @media (max-width: 500px) {
       margin-top: 40px;
